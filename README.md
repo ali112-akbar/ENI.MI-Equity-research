@@ -1,76 +1,93 @@
-# 📊 ENI S.p.A. (ENI.MI) — Equity Research Report  
-**Analyst:** Ali Akbar  
-**Data:** Maggio 2026  
-**Settore:** Integrated Oil & Gas – Europa  
+# ENI.MI-Equity-research
 
-Questo repository contiene un’analisi completa di Equity Research su **ENI S.p.A. (ENI.MI)**, sviluppata utilizzando Python per la raccolta dati, modellazione finanziaria, valutazione DCF, analisi dei multipli e simulazione Monte Carlo.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Finance](https://img.shields.io/badge/Equity_Research-2C3E50?style=for-the-badge)
 
-L’obiettivo del progetto è dimostrare competenze tecniche e analitiche tipiche di un ruolo in **Investment Banking**, **Equity Research** o **Data Analytics**.
-
----
-
-## 🚀 Contenuti del Repository
-
-### **1. Report Professionale (PDF)**
-- Equity Research completo in stile Investment Banking  
-- Valutazione DCF (3 scenari)  
-- Sensitivity Analysis (WACC × g)  
-- Comparable Company Analysis  
-- Monte Carlo Simulation (10.000 iterazioni)  
-- Investment Thesis (Bull/Bear)  
-- One‑Page IB Pitch Summary  
-
-### **2. Codice Python**
-Il codice Python utilizzato per:
-- Importare e validare dati finanziari (ENI Annual Reports + yfinance)  
-- Calcolare FCFF, WACC, ROIC, multipli e metriche operative  
-- Costruire il modello DCF  
-- Generare heatmap di sensitività  
-- Eseguire simulazioni Monte Carlo  
-- Produrre grafici professionali  
-
-### **3. Grafici e Visualizzazioni**
-- DCF Bear/Base/Bull  
-- Sensitivity Heatmaps  
-- EV/EBITDA peer comparison  
-- Leverage comparison  
-- FCFF projections  
-- Monte Carlo distribution  
+> Institutional-grade equity research report on ENI S.p.A. (BIT: ENI.MI) — Italy's largest integrated energy company and FTSE MIB constituent.
 
 ---
 
-## 🧠 **Sintesi dell’Analisi**
+## Overview
 
-### **Valutazione**
-| Metodo | Valore | Upside |
-|--------|--------|---------|
-| DCF Base Case | €25,61 | +7% |
-| Comps Median | €18,74 | –22% |
-| Monte Carlo Median | €24,78 | +3% |
-| **Stima Centrale** | **€21,69** | **–9%** |
+This project delivers a full **sell-side equity research note** on ENI, one of the world's top integrated oil and gas majors. The analysis follows the structure used by European investment banks covering the energy sector.
 
-**Conclusione:**  
-ENI risulta **equamente valutata**, con upside limitato salvo condizioni favorevoli su Brent e WACC.
-
----
-
-## 📌 **Tecnologie Utilizzate**
-- **Python 3.10+**  
-- pandas, numpy  
-- matplotlib, seaborn  
-- yfinance  
-- scipy  
-- jupyter notebook  
+| Stage | Details |
+|-------|---------|
+| Company Overview | Business segments, geographic exposure, competitive positioning |
+| Financial Analysis | P&L, Balance Sheet, Cash Flow — FY2020 to FY2024 |
+| Valuation | EV/EBITDA, P/E, DCF, dividend yield analysis |
+| Investment Thesis | Bull/bear arguments, key catalysts, risks |
+| Final Report | PDF research note in institutional format |
 
 ---
 
-## 🎯 **Obiettivi del Progetto**
-- Applicare metodologie reali di Investment Banking  
-- Dimostrare capacità di modellazione finanziaria  
-- Integrare Python con analisi fondamentale  
-- Produrre un report professionale pronto per portfolio o colloqui  
+## Key Analytical Areas
+
+**Business Model**
+- Upstream (E&P): oil and gas production across 40+ countries
+- Downstream: refining, chemicals, retail fuel
+- Renewable energy transition: Plenitude subsidiary analysis
+
+**Financial Performance**
+- Revenue sensitivity to Brent crude price
+- EBITDA margins across business segments
+- Free cash flow generation and dividend sustainability
+
+**Valuation**
+- Intrinsic value via DCF with oil price scenario modelling
+- Relative valuation vs. Shell, TotalEnergies, BP, Equinor
+- Dividend discount model (ENI yields ~6%)
+
+**ESG and Energy Transition**
+- Net Zero 2050 roadmap assessment
+- Renewable capacity targets vs. capex allocation
+- Carbon intensity reduction trajectory
 
 ---
 
-## 🧩 Struttura del Repository
+## Project Structure
 
+```
+ENI.MI-Equity-research/
+├── Equity_Research_ENI-MI.ipynb    <- Full analysis notebook
+├── final report.pdf                <- Institutional research note
+└── README.md
+```
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/ali112-akbar/ENI.MI-Equity-research
+cd ENI.MI-Equity-research
+pip install pandas numpy matplotlib seaborn jupyter yfinance
+jupyter notebook Equity_Research_ENI-MI.ipynb
+```
+
+---
+
+## Portfolio Readiness: 7/10
+
+**Strengths**
+- European large-cap coverage — differentiates from US-only projects
+- Combines Python notebook with a formal institutional PDF report
+- Energy sector expertise increasingly valued (ESG transition, commodity cycles)
+- Real ticker (ENI.MI on Borsa Italiana) with verifiable public data
+
+**Suggested Improvements**
+- Add requirements.txt or environment.yml
+- Commit financial data as CSV files in a data/ folder
+- Add a visualisations/ folder with exported chart PNGs
+- Include topics/tags on GitHub for discoverability (equity-research, python, finance)
+
+---
+
+## Author
+
+**Ali Akbar**
+GitHub: [@ali112-akbar](https://github.com/ali112-akbar)
+Email: ali123akbar12@gmail.com
+
+*Last updated: May 2026*
